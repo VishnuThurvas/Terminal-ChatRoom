@@ -4,7 +4,7 @@ import socket
 alias = input("Choose an alias >>> ")
 client = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 client.connect(('127.0.0.1' , 59000))
-# create two funct()
+# created  two funct()
 # 1) to recv messages from other clients through the server
 # 2) to send  messages from other clients through the server
 # encode for send and decode for receive
