@@ -3,7 +3,7 @@ import socket
 
 alias = input("Choose an alias >>> ")
 client = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-client.connect(('127.0.0.1' , 59000))
+client.connect(('${local_machine_ip}' , ${port_number}))
 # created  two funct()
 # 1) to recv messages from other clients through the server
 # 2) to send  messages from other clients through the server
